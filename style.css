@@ -5,3 +5,48 @@ body {
 #landing-page img {
   max-width: 100%;
 }
+
+.textLanding {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+@media all and (max-width: 2000px) { /* screen size until 2000px */
+    pre {
+      font-size: 4.4vw; /* 1.5x default size */
+      font-family: 'Tangerine', cursive;
+      color: #E5E5E5;
+      letter-spacing: 5px;
+      background-color: #000000;
+      opacity: 0.5;
+      padding-left: 30%;
+    }
+  }
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    pre {
+      font-size: 7vw; /* 1.5x default size */
+      font-family: 'Tangerine', cursive;
+      color: #ffff;
+      letter-spacing: 3px;
+      background-color: black;
+      opacity: 0.5;
+      padding-left: 33%;
+    }
+  }
+  
+  @media all and (max-width: 500px) { /* screen size until 500px */
+    pre {
+      font-size: 7vw; /* 0.8x default size */
+      font-family: 'Tangerine', cursive;
+      color: #ffff;
+      letter-spacing: 3px;
+      background-color: black;
+      opacity: 0.5;
+      padding-left: 33%;
+    }
+}
