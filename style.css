@@ -90,6 +90,10 @@
 }
 
 @media all and (max-width: 800px) {
+  .nameLandingLeft h1{
+    font-size: 5.5vh;
+  }
+  
   .landingRightPart h3 {
     height: fit-content;
     font-size: 20px;
@@ -98,7 +102,7 @@
   .landingRightPart p {
     margin-top: 15px;
     height: fit-content;
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .btnPart {
