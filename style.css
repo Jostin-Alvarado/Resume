@@ -6,6 +6,7 @@
 
 .landingLeftPart img {
   height: fit-content;
+  max-width: 100%;
 }
 
 .nameLandingLeft h1 {
