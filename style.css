@@ -1,5 +1,3 @@
-/* Part for the other page and better ideas */
-
 .landingLeftPart {
   padding: 0%;
 }
@@ -60,6 +58,11 @@
 }
 
 @media all and (max-width: 1199px) {
+  .landingLeftPart img {
+    height: 90vh;
+    width: 100%;
+  }
+  
   .spaceRight {
     height: 20px;
   }
@@ -72,16 +75,15 @@
   .landingRightPart p {
     height: 45vh;
     font-size: 2.2vh;
+    margin-top: 15px;
   }
 
   .btnPart {
-    height: 7vh;
-    float: left;
+    height: 30px;
   }
 
   .btnPart a {
     margin-bottom: 15px;
-    margin-top: 10px;
     font-size: 2vh;
   }
 }
