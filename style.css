@@ -4,11 +4,6 @@
   padding: 0%;
 }
 
-.landingLeftPart img {
-  height: fit-content;
-  max-width: 100%;
-}
-
 .nameLandingLeft h1 {
   font-family: "Playfair Display", serif;
   text-align: center;
@@ -21,6 +16,7 @@
 
 .landingLeftPart img {
   height: 90vh;
+  width: 100%;
 }
 
 .landingRightPart {
@@ -91,6 +87,11 @@
 }
 
 @media all and (max-width: 800px) {
+  .landingLeftPart img {
+    height: 50vh;
+    width: 100%;
+  }
+  
   .nameLandingLeft h1{
     font-size: 5.5vh;
   }
