@@ -6,24 +6,25 @@
   font-family: "Playfair Display", serif;
   text-align: center;
   font-size: 7vh;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
   margin: 0px;
   padding-bottom: 1%;
-  height: 10vh;
+  height: 9vh;
 }
 
 .landingLeftPart img {
-  height: 90vh;
+  height: 91vh;
   width: 100%;
 }
 
 .landingRightPart {
   padding: 0% 2% 0% 2%;
   margin: 0px;
+  box-shadow: 0px 1px 5px 3px #000000;
 }
 
 .spaceRight {
-  height: 5vh;
+  height: 8vh;
 }
 
 .landingRightPart h3 {
@@ -35,9 +36,10 @@
 
 .landingRightPart p {
   font-family: "Raleway", sans-serif;
-  height: 70vh;
+  height: 64vh;
   margin: 0px;
   font-size: 2vh;
+  text-align: justify;
 }
 
 .btnPart {
@@ -49,12 +51,18 @@
 }
 
 .btnPart a {
-  border-color: #ffff;
-  color: #ffff;
-  background-color: #14213d;
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #14213D;
   font-family: "Playfair Display", serif;
   font-size: 1.8vh;
   margin-right: 15px;
+}
+
+.btnPart a:hover {
+  border-color: #FCA311;
+  color: #000000;
+  background-color: #FCA311;
 }
 
 @media all and (max-width: 1199px) {
